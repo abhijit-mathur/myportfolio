@@ -1,2 +1,4 @@
 .jekyll-cache
 *.lock
+_site*
+.DS_Store
