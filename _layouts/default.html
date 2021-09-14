@@ -1,12 +1,12 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="is-loading-0 is-loading-1 is-loading-2">
+  {{ content }}
+
+  {% include scripts.html %}
+</body>
 </html>
